@@ -1,0 +1,22 @@
+{
+  "name": "ccpj",
+  "version": "1.0.0",
+  "description": "conta pj",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kenardrs/ccpj.git"
+  },
+  "author": "kenardrs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kenardrs/ccpj/issues"
+  },
+  "homepage": "https://github.com/kenardrs/ccpj#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
