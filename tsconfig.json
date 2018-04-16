@@ -5,6 +5,11 @@
     ],
     "compilerOptions": {
         "noImplicitAny": true,
-        "target": "es5"
-    }
+        "target": "es5",
+        "outDir": "dist",
+        "noEmitOnError": true,
+    },
+    "include": [
+        "src/**/*"
+    ]
 }
