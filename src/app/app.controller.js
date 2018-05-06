@@ -5,8 +5,8 @@
         .module('ccpj')
         .controller('TesteController', TesteController);
 
-    TesteController.$inject = ['$scope'];
-    function TesteController($scope) {
+    TesteController.$inject = [];
+    function TesteController() {
         var vm = this;
 
         vm.nome = 'kenard';
