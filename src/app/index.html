@@ -12,9 +12,20 @@
 
     <!-- files -->
     <script src="app.js"></script>
+    <script src="app.controller.js"></script>
+    <script src="app.controller2.js"></script>
 
 </head>
 <body>
     
+    <div ng-controller="TesteController as vm">
+        <span>Nome - {{vm.nome}}</span>
+    </div>
+
+    <div ng-controller="Teste2Controller as vm">
+        <span>Nome2 - {{vm.nome}}</span>
+    </div>
+
+
 </body>
 </html>
